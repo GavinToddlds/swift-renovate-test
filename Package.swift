@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "Kingfisher", url: "git@github.com:onevcat/Kingfisher.git", from: "7.0.0"),
-        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.0.0"),
+        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.5.0"),
         .package(name: "Signals", url: "git@github.com:artman/Signals.git", from: "6.1.0"),
         .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMinor(from: "0.1.0")),
     ]
